@@ -4,6 +4,8 @@ import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts"
 import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
+
+import Posts from "./components/Posts/Posts";
 import "./App.css"
 function App() {
   const activeLinkStyle = {
