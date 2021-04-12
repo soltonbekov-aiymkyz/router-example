@@ -1,4 +1,5 @@
 import { Redirect, Route, Switch } from "react-router";
+import { NavLink } from "react-router-dom";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts"
 import Home from "./components/Home/Home";
@@ -7,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <ul>
-        <li>  <Link to="/">home </Link> </li>
-        <li> <Link to="/contacts">contacts </Link></li>
-        <li> <Link to="/about">about </Link>   </li>
+        <li>  <NavLink to="/">home </NavLink> </li>
+        <li> <NavLink to="/contacts">contacts </NavLink></li>
+        <li> <NavLink to="/about">about </NavLink>   </li>
       </ul>
       <Switch>
         <Route path="/about" component={About} />
