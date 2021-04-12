@@ -60,3 +60,5 @@ export default App;
 //redirect to for home page pereadresasiya
 //Link style stily aktivnoi ssylki
 //navlink dlya navigasii
+//match  coderzit params  
+//path 
