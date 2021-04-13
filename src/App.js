@@ -4,25 +4,27 @@ import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts"
 import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
-
 import Posts from "./components/Posts/Posts";
+
+import Shop from "./components/Shop/Shop";
+
 import "./App.css"
 function App() {
+
   const activeLinkStyle = {
     fontWeight: 'bold',
   };
-
-
 
   return (
     <div className="App">
       <ul>
         <li>
           <NavLink
+          exact
             activeStyle={activeLinkStyle}
             activeClassName="activeLink"
             to="/"
-            exact>home </NavLink>
+            >home </NavLink>
         </li>
         <li>
           <NavLink
@@ -42,6 +44,12 @@ function App() {
             activeClassName="activeLink"
             to="/posts">Posts </NavLink>
         </li>
+        <li>
+          <NavLink
+            activeStyle={activeLinkStyle}
+            activeClassName="activeLink"
+            to="/shop">shop </NavLink>
+        </li>
       </ul>
       <Switch>
         <Route path="/about" component={About} />
@@ -49,6 +57,8 @@ function App() {
         <Route path="/posts" component={Posts} />
         <Route exact path="/" component={Home} />
         <Route path="/" component={NotFound} />
+        
+        <Route path="/" component={Shop} />
         {/* <Redirect to="/"  />  */}
       </Switch>
     </div>
@@ -62,3 +72,4 @@ export default App;
 //navlink dlya navigasii
 //match  coderzit params  
 //path 
+
