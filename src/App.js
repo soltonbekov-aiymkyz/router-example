@@ -53,10 +53,10 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/posts" component={Posts} />
+        <Route path="/shop" component={Shop} />
         <Route exact path="/" component={Home} />
         <Route path="/" component={NotFound} />
         
-        <Route path="/" component={Shop} />
         {/* <Redirect to="/"  />  */}
       </Switch>
     </div>
