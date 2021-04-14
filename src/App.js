@@ -10,13 +10,7 @@ import Shop from "./components/Shop/Shop";
 import "./App.css"
 
 
-
-
-
-
-
 function App() {
-
   const activeLinkStyle = {
     fontWeight: 'bold',
   };

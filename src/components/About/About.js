@@ -1,8 +1,11 @@
-import classes from "./About.module.css"
+
+import classes from "./About.module.css";
+
 const About =()=> {
     return(
-        <div className=".About">
+        <div className={classes.About}>
             <h1> about </h1>
+            <span>about us </span>
             <p className="classes.p" >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec
         dignissim risus. Sed elit ex, dignissim ac est nec, porta rutrum lorem.

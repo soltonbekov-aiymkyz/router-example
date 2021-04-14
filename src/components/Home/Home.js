@@ -1,7 +1,7 @@
 import classes from "./Home.module.css"
 const Home =()=> {
     return(
-        <div className=".Home">
+        <div className={classes.Home}>
             <h1>this is home page</h1></div>
     )
 }
