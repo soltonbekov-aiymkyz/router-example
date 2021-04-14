@@ -1,5 +1,5 @@
 
-import {  Route, Switch } from 'react-router';
+import { Route, Switch } from 'react-router';
 import { NavLink } from "react-router-dom";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts"
@@ -9,12 +9,10 @@ import Posts from "./components/Posts/Posts";
 import Shop from "./components/Shop/Shop";
 import "./App.css"
 
-
 function App() {
   const activeLinkStyle = {
     fontWeight: 'bold',
   };
-
   return (
     <div className="App">
       <ul className="ul">
