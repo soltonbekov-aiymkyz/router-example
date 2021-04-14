@@ -1,3 +1,27 @@
-activeLink{
+
+
+
+html, body {
+  margin: 0;
+  background-color: blueviolet;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+.App .ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  min-height: 75px;
+  background-color: green;
+}
+.App .ul li {
+  list-style-type: none;
+}
+
+.activeLink {
   color: red;
 }
