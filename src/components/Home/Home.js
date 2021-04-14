@@ -2,10 +2,8 @@ import classes from "./Home.module.css"
 const Home =()=> {
     return(
         <div className={classes.Home}>
-            <h1>this is home page</h1></div>
-
-             
-
+            <h4>HoMe PaGe</h4>
+        </div>
     )
 }
 export default Home;
