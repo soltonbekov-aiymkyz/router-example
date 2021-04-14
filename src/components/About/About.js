@@ -3,10 +3,10 @@ import classes from "./About.module.css";
 const About = () => {
     return (
       <div className={classes.About}>
-        <h2>About us</h2>
+        <h2>About our compny</h2>
         <div className={classes.divp}>
           <div className={classes.section}>
-            <h3>Title</h3>
+            <h3>Products</h3>
             <p className={classes.par}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec
             dignissim risus. Sed elit ex, dignissim ac est nec, porta rutrum lorem.
@@ -23,7 +23,7 @@ const About = () => {
             conubia nostra, per inceptos himenaeos.
           </p></div>
           <div className={classes.section}>
-            <h3>Title</h3>
+            <h3>household products</h3>
             <p className={classes.par}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec
             dignissim risus. Sed elit ex, dignissim ac est nec, porta rutrum lorem.
@@ -43,7 +43,7 @@ const About = () => {
         
        
           <div className={classes.section}>
-            <h3>some something</h3>
+            <h3>products for pets</h3>
             <p className={classes.par}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec
             dignissim risus. Sed elit ex, dignissim ac est nec, porta rutrum lorem.
