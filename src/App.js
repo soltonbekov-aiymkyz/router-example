@@ -1,13 +1,12 @@
-import { Redirect, Route, Switch } from "react-router";
+
+import { Redirect, Route, Switch } from 'react-router';
 import { NavLink } from "react-router-dom";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts"
 import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
 import Posts from "./components/Posts/Posts";
-
 import Shop from "./components/Shop/Shop";
-
 import "./App.css"
 function App() {
 
@@ -72,4 +71,3 @@ export default App;
 //navlink dlya navigasii
 //match  coderzit params  
 //path 
-
