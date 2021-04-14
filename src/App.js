@@ -1,5 +1,5 @@
 
-import { Redirect, Route, Switch } from 'react-router';
+import {  Route, Switch } from 'react-router';
 import { NavLink } from "react-router-dom";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts"
@@ -8,6 +8,13 @@ import NotFound from "./components/NotFound/NotFound";
 import Posts from "./components/Posts/Posts";
 import Shop from "./components/Shop/Shop";
 import "./App.css"
+
+
+
+
+
+
+
 function App() {
 
   const activeLinkStyle = {
@@ -16,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <ul>
+      <ul className="ul">
         <li>
           <NavLink
           exact
@@ -65,9 +72,15 @@ function App() {
 }
 export default App;
 //exact delaet atribut obizatelnym
+
 //Switch pereclushaet 
+
 //redirect to for home page pereadresasiya
+
 //Link style stily aktivnoi ssylki
+
 //navlink dlya navigasii
+
 //match  coderzit params  
+
 //path 
