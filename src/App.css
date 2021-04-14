@@ -1,13 +1,9 @@
 
-
-
 html, body {
   margin: 0;
-  background-color: blueviolet;
-  font-family: 'Libre Baskerville', serif;
+  background-color: yellowgreen;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 .App .ul {
   padding: 0;
   display: flex;
@@ -16,12 +12,11 @@ html, body {
   margin: 0;
   width: 100%;
   min-height: 75px;
-  background-color: green;
+  background-color: yellow;
 }
 .App .ul li {
   list-style-type: none;
 }
-
-.activeLink {
-  color: red;
+.App .ulNav li a {
+  text-decoration: none;
 }
