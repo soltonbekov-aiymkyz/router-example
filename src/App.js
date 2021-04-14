@@ -7,6 +7,8 @@ import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
 import Posts from "./components/Posts/Posts";
 import Shop from "./components/Shop/Shop";
+
+import Products from './components/Products/Products';
 import "./App.css"
 
 function App() {
@@ -48,12 +50,15 @@ function App() {
             activeClassName="activeLink"
             to="/shop">shop </NavLink>
         </li>
+        
+        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/products">Prodocts</NavLink></li>
       </ul>
       <Switch>
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/posts" component={Posts} />
         <Route path="/shop" component={Shop} />
+        <Route path="/products" component={Products} />
         <Route exact path="/" component={Home} />
         <Route path="/" component={NotFound} />
         
