@@ -1,4 +1,4 @@
-import { Route } from "react-router";
+
 import classes from "./FullShop.module.css";
 import { Link } from "react-router-dom";
 

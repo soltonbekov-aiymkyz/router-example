@@ -82,6 +82,7 @@ function App() {
   );
 }
 export default App;
+//brouzer router use 
 //exact delaet atribut obizatelnym
 
 //Switch pereclushaet 
