@@ -41,6 +41,34 @@ Maintenance of fit is more challenging for trousers than for some other garments
 
 
 
+//   function animation({level}) {
+//     if (level == 10) 
+//       return;
+//     animation(level + 1);
+//   }
+//   animation(0);
+//   function animation({type}) {
+//     if (type == 10) 
+//       return;
+//     animation(type + 1);
+//   }
+//   animation(0);
+// function test({level}) {
+//     if (!level==10) return;
+//     const q = quantity || 1; 
+//     console.log(`We have ${q} ${fruit}!`);
+//   }
+//   test('banana'); 
+//   test('apple', 2); 
+//   function test(fruit, quantity) {
+//     if (!fruit) return;
+//     const q = quantity || 1; // if quantity not provided, default to one
+  
+//     console.log(`We have ${q} ${fruit}!`);
+//   }
+//   //test results
+//   test('banana'); // We have 1 banana!
+//   test('apple', 2); // We have 2 apple!
 
 
     )
