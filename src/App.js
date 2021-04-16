@@ -84,15 +84,11 @@ function App() {
 export default App;
 //brouzer router use 
 //exact delaet atribut obizatelnym
-
 //Switch pereclushaet 
-
 //redirect to for home page pereadresasiya
-
 //Link style stily aktivnoi ssylki
-
 //navlink dlya navigasii
-
-//match  coderzit params  
-
-//path 
+//match  coderzit params    url path isexact params
+//path put
+//put v komponente route
+//exact dopuskeat tochnoe sovpadenie
