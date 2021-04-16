@@ -9,6 +9,7 @@ import Posts from "./components/Posts/Posts";
 import Shop from "./components/Shop/Shop";
 import Jackets from "./components/Jackets/Jackets"
 import Products from './components/Products/Products';
+import Pants from './components/Pants/Pants';
 import "./App.css"
 
 function App() {
@@ -58,6 +59,8 @@ function App() {
             to="/jackets">jackets </NavLink>
         </li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/products">Prodocts</NavLink></li>
+        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/pants">Pants</NavLink></li>
+
       </ul>
       <Switch>
         <Route path="/about" component={About} />
@@ -68,6 +71,8 @@ function App() {
         <Route path="/posts" component={Posts} />
         <Route path="/shop" component={Shop} />
         <Route path="/products" component={Products} />
+        
+        <Route path="/pants" component={Pants} />
         <Route exact path="/" component={Home} />
         <Route path="/" component={NotFound} />
         
